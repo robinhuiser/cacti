@@ -15,6 +15,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
     supervisor \
     tar \
     xz-utils \
+    build-essential \
     && rm -rf /var/lib/apt/lists/*
 
 # Add Docker's official GPG key
